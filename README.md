@@ -1,4 +1,4 @@
-# infrabase-rules
+# Write policies in natural language
 
 An example repo that demonstrates how to use rules with Infrabase. You'd want to fork this repo, install infrabase GitHub app into your private fork, and gradually develop your own set of rules.
 
