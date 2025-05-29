@@ -1,6 +1,6 @@
 # Write policies in natural language
 
-This is an example repository of custom rules for [Infrabase](https://infrabase.co/). It allows you to write security and style policies in natural language, and comes with sensible defaults for most common misconfigurations.
+This is an example repository of custom rules for [Infrabase](https://infrabase.co/). It allows you to write security and style policies for your infrastructure in natural language (instead of OPA / Sentinel), and comes with sensible defaults for most common misconfigurations.
 
 ## Overview
 
