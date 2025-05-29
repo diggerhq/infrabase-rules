@@ -96,6 +96,12 @@ default allow = count(deny) == 0
 
 </details>
 
+## Features
+- Supports Terraform, OpenTofu, Terragrunt, CDK, CDKTF, CloudFormation, Pulumi
+- Summary table of findings, ordered by severity. Works well in large monorepos
+- Integrated with GitHub Advanced Security (GAS) alerts - findings are uploaded as SARIF files
+- Write policies in natural language (fork this repo)
+
 ## Structure and conventions
 
 Rules need to be stored in the `policies` folder as markdown files. No other folders or file types are considered.
