@@ -10,6 +10,17 @@ This is an example repository of custom rules for [Infrabase](https://infrabase.
 
 <img width="916" alt="infrabase-analysis" src="https://github.com/user-attachments/assets/daea5c6d-5e27-4d91-9faa-c0b0e3e595be" />
 
+## Motivation
+Policy-as-code is one of those things that everyone knows should be done, but in practice is rarely implemented.
+
+How come? We believe this is caused by the combination of the following 2 factors:
+- OPA is cumbersome, so writing even a single policy takes a lot of effort
+- Each policy project needs to start from scratch because policies aren't re-usable
+
+Infrabase checks your infra with an LLM instead of policies directly (`gemini-2.5-pro-preview-05-06`). You can write your own policies as natural language prompts to customize behaviour - just fork this repo and connect it to Infrabase GitHub app.
+
+## How it works
+
 
 ## Structure and conventions
 
