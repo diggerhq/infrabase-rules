@@ -1,6 +1,6 @@
 # Write policies in natural language
 
-An example repo that demonstrates how to use rules with Infrabase. You'd want to fork this repo, install infrabase GitHub app into your private fork, and gradually develop your own set of rules.
+This is an example repository of custom rules for [Infrabase](https://infrabase.co/). It allows you to write security and style policies in natural language, and comes with sensible defaults for most common misconfigurations.
 
 ## Overview
 
