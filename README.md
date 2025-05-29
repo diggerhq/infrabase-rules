@@ -1,16 +1,14 @@
 # Write policies in natural language
 
-This is an example repository of custom rules for [Infrabase](https://infrabase.co/). It's a GitHub app that detects security issues and other misconfigurations in your IaC pull requests. You can write Infrabase policies in natural language instead of OPA / Rego / Sentinel; this repo contains a few examples.
-
-
+This is an example repository of custom rules for [Infrabase](https://infrabase.co/). It's a GitHub app that detects security issues and other misconfigurations in your IaC pull requests. You can write Infrabase policies in natural language instead of OPA / Rego / Sentinel; this repo contains some examples.
 
 ## Quick start
 1. Create an account at [infrabase.co](https://infrabase.co/)
 2. Fork this repo (optional; only if you want to use custom rules)
 3. Install the Infrabase GitHub app into the repos you'd like to review and take policies from (including your fork of this repo)
-4. Create a pull request with some infrastructure changes
+4. Create a pull request with some infrastructure changes. Shortly Infrabase will report on findings in the comment
 
-<img width="1036" alt="infrabase-analysis" src="https://github.com/user-attachments/assets/a44b88a2-0323-48f1-abd9-e2aa323024b7" />
+<img width="916" alt="infrabase-analysis" src="https://github.com/user-attachments/assets/daea5c6d-5e27-4d91-9faa-c0b0e3e595be" />
 
 
 ## Structure and conventions
