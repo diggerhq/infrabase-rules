@@ -98,7 +98,8 @@ default allow = count(deny) == 0
 
 ## Features
 - Supports Terraform, OpenTofu, Terragrunt, CDK, CDKTF, CloudFormation, Pulumi
-- Summary table of findings, ordered by severity. Works well in large monorepos
+- Does not require access to state or cloud account
+- Summary table of findings, ordered by severity. Works well with big PRs and large monorepos.
 - Integrated with GitHub Advanced Security (GAS) alerts - findings are uploaded as SARIF files
 - Write policies in natural language (fork this repo)
 
