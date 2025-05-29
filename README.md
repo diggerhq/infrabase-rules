@@ -19,8 +19,6 @@ How come? We believe this is caused by the combination of the following 2 factor
 
 Infrabase checks your infra with an LLM instead of policies directly (`gemini-2.5-pro-preview-05-06`). You can write your own policies as natural language prompts to customize behaviour - just fork this repo and connect it to Infrabase GitHub app.
 
-## How it works
-
 
 ## Structure and conventions
 
