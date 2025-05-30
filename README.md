@@ -17,7 +17,7 @@ How come? We believe this is caused by the combination of the following 2 factor
 - OPA is cumbersome, so writing even a single policy takes a lot of effort
 - Each policy project needs to start from scratch because policies aren't re-usable
 
-Infrabase checks your infra with an LLM instead of policies directly (`gemini-2.5-pro-preview-05-06`). You can write your own policies as natural language prompts to customize behaviour - just fork this repo and connect it to Infrabase GitHub app.
+Infrabase checks your infra with an LLM instead of policies directly (currently a combination of `gemini-2.5-pro-preview-05-06` and `o4-mini`). You can write your own policies as natural language prompts to customize behaviour - just fork this repo and connect it to Infrabase GitHub app.
 
 ## See the difference
 
